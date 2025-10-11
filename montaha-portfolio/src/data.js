@@ -1,4 +1,3 @@
-// ✅ Import all images at the top
 import depiImg from "./assets/DEPI.png";
 import ntiImg from "./assets/NTI.png";
 import hrImg from "./assets/HR Analytics.png";
@@ -75,7 +74,7 @@ export const projects = [
     desc:
       "Designed and implemented an HR analytics dashboard to uncover workforce insights and support data-driven decision making. The project focused on analyzing employee demographics, attrition trends, performance ratings, and departmental distributions. Using tools such as Excel, Power Query, and visualization techniques, I transformed raw HR data into interactive reports that highlight key metrics like turnover rate, average tenure, and promotion patterns. The outcome provides HR managers with actionable insights to improve retention strategies, optimize hiring, and enhance overall organizational performance.",
     tags: ["Excel", "Power Query", "Dashboard"],
-    image: "https://drive.google.com/file/d/1Qbvqw9D0wfrZyNHIhUUL1yuK1Qk7Cr3Q/view?usp=sharing",
+    image: hrImg,
     link: "https://docs.google.com/spreadsheets/d/your-sheet-id",
     source: "https://github.com/yourusername/hr-analytics",
     dataset: "https://docs.google.com/spreadsheets/d/your-sheet-id",
