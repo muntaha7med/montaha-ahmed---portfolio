@@ -3,6 +3,8 @@ import ntiImg from "./assets/NTI.png";
 import hrImg from "./assets/HR Analytics.png";
 import misrImg from "./assets/Banque Misr.png";
 import houseImg from "./assets/Housing Prices.png";
+import svuImg from "./assets/SVU.png";
+import nysaImg from "./assets/UAS.jpg";
 
 export const hero = {
   name: "Montaha Ahmed Atef",
@@ -34,6 +36,7 @@ export const education = [
     period: "Oct 2022 — Jul 2026",
     desc:
       "Built a strong foundation in computer science fundamentals while exploring diverse technologies across multiple areas of the field. Alongside academic studies, actively engaged in student activities—both technical and extracurricular—that supported continuous learning and personal development.",
+    image: svuImg,
   },
   {
     title: "Erasmus+ Mobility Program (Semester Abroad)",
@@ -41,6 +44,7 @@ export const education = [
     period: "Feb 2024 - Jul 2024",
     desc:
       "Participated in a semester abroad that combined academic learning with cultural exchange. Involved in presentations, volunteering, and international programmes, which enhanced adaptability, communication, and cross-cultural collaboration skills while expanding global perspectives.",
+    image: nysaImg,
   },
 ];
 
@@ -72,7 +76,7 @@ export const projects = [
     title: "HR Analytics Project",
     date: "2025",
     desc:
-      "Designed and implemented an HR analytics dashboard to uncover workforce insights and support data-driven decision making. The project focused on analyzing employee demographics, attrition trends, performance ratings, and departmental distributions. Using tools such as Excel, Power Query, and visualization techniques, I transformed raw HR data into interactive reports that highlight key metrics like turnover rate, average tenure, and promotion patterns. The outcome provides HR managers with actionable insights to improve retention strategies, optimize hiring, and enhance overall organizational performance.",
+      "Designed and implemented an HR analytics dashboard to reveal workforce insights and support data-driven decision-making. The project focused on analysing employee demographics, attrition trends, performance ratings, and departmental distributions. Using tools such as Excel, Power Query, and visualisation techniques, I transformed raw HR data into interactive reports that highlight key metrics including turnover rate, average tenure, and promotion patterns. The outcome equips HR managers with actionable insights to enhance retention strategies, optimise recruitment, and improve overall organisational performance.",
     tags: ["Excel", "Power Query", "Dashboard"],
     image: hrImg,
     link: "https://docs.google.com/spreadsheets/d/your-sheet-id",
@@ -104,74 +108,74 @@ export const projects = [
 
 export const services = [
   {
-    title: "Data Analysis",
-    desc: "Turn raw datasets into clear insights with structured analysis and reporting.",
+    title: "Data Analysis Package",
+    desc: "Transform data into meaningful insights that support smarter business decisions.",
     tiers: [
-      { 
-        level: "⭐ Starter (1 Week)", 
-        details: "Data cleaning, exploratory analysis, and a concise summary report." 
+      {
+        level: "⭐ Starter (1 Week)",
+        details: "Data cleaning, exploration, and a summary of key findings."
       },
-      { 
-        level: "🚀 Professional (2 Weeks)", 
-        details: "In-depth analysis with trend discovery and actionable insights." 
+      {
+        level: "🚀 Professional (2 Weeks)",
+        details: "Comprehensive analysis identifying trends, patterns, and actionable insights."
       },
-      { 
-        level: "👑 Advanced (1 Month)", 
-        details: "Comprehensive project analysis with predictive insights and full documentation." 
+      {
+        level: "👑 Advanced (1 Month)",
+        details: "End-to-end analysis project with detailed reporting and strategic recommendations."
       }
     ]
   },
   {
-    title: "Data Visualization",
-    desc: "Communicate data effectively with charts, dashboards, and storytelling visuals.",
+    title: "Data Visualisation Package",
+    desc: "Bring data to life through interactive dashboards and storytelling visuals.",
     tiers: [
-      { 
-        level: "⭐ Starter (1 Week)", 
-        details: "Basic charts and static reports using Excel or Power BI." 
+      {
+        level: "⭐ Starter (1 Week)",
+        details: "Static charts and simple visuals using Excel or Power BI."
       },
-      { 
-        level: "🚀 Professional (2 Weeks)", 
-        details: "Interactive dashboards with clear storytelling and insights." 
+      {
+        level: "🚀 Professional (2 Weeks)",
+        details: "Interactive dashboards with storytelling elements and business insights."
       },
-      { 
-        level: "👑 Advanced (1 Month)", 
-        details: "Real-time dashboards with professional reporting and design polish." 
+      {
+        level: "👑 Advanced (1 Month)",
+        details: "Full data visualisation solution with dynamic dashboards and design refinement."
       }
     ]
   },
   {
-    title: "Complete Data Solutions",
-    desc: "End-to-end solutions combining analysis, visualization, and automation.",
+    title: "Complete Data Solutions Package",
+    desc: "Deliver complete solutions combining analysis, visualisation, and workflow optimisation.",
     tiers: [
-      { 
-        level: "⭐ Starter (2 Weeks)", 
-        details: "Essential analysis and visualization with key findings." 
+      {
+        level: "⭐ Starter (2 Weeks)",
+        details: "Exploratory analysis and key visualisations with concise insights."
       },
-      { 
-        level: "🚀 Professional (1 Month)", 
-        details: "Full analysis plus dashboards and automated reporting." 
+      {
+        level: "🚀 Professional (1 Month)",
+        details: "Comprehensive analysis with automated reporting and dashboards."
       },
-      { 
-        level: "👑 Advanced (2–3 Months)", 
-        details: "End-to-end data project with app or web integration." 
+      {
+        level: "👑 Advanced (2–3 Months)",
+        details: "Full data project integrating analysis, automation, and interactive dashboards."
       }
     ]
   },
   {
-    title: "AI & Machine Learning",
-    desc: "Leverage AI to build predictive models and intelligent solutions.",
+    title: "AI & Machine Learning Package",
+    desc: "Use machine learning to predict outcomes and unlock smarter decision-making.",
     tiers: [
-      { 
-        level: "⭐ Starter (2 Weeks)", 
-        details: "Basic machine learning models with initial evaluation." 
+      {
+        level: "⭐ Starter (2 Weeks)",
+        details: "Basic predictive models with evaluation and insights."
       },
-      { 
-        level: "🚀 Professional (1 Month)", 
-        details: "Custom ML pipelines with model optimization and testing." 
+      {
+        level: "🚀 Professional (1 Month)",
+        details: "Custom ML models with feature engineering and performance optimisation."
       },
-      { 
-        level: "👑 Advanced (2–3 Months)", 
-        details: "Complete AI solution with deployment and business integration." 
+      {
+        level: "👑 Advanced (2–3 Months)",
+        details: "Full AI solution including data pipeline, model training, and deployment."
       }
     ]
   }
