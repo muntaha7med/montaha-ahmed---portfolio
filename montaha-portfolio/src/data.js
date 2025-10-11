@@ -1,3 +1,10 @@
+// ✅ Import all images at the top
+import depiImg from "./assets/DEPI.png";
+import ntiImg from "./assets/NTI.png";
+import hrImg from "./assets/HR Analytics.png";
+import misrImg from "./assets/Banque Misr.png";
+import houseImg from "./assets/Housing Prices.png";
+
 export const hero = {
   name: "Montaha Ahmed Atef",
   role: "Data Scientist — AI & ML Enthusiast",
@@ -6,7 +13,7 @@ export const hero = {
 
 export const about = {
   intro:
-    "I began as a Beginning as a Backend Developer, I discovered my passion for Artificial Intelligence and Machine Learning. Today, I build on that technical foundation through Data Analysis and Data Science, delivering data-driven solutions that are accurate, impactful, and future-ready Developer working with systems and logic. Curiosity led me to ask: what happens to all this data once it’s collected — can it tell us more? That pull led me to Artificial Intelligence and Data Science.",
+    "Beginning as a Backend Developer, I discovered my passion for Artificial Intelligence and Machine Learning. Today, I build on that technical foundation through Data Analysis and Data Science, delivering data-driven solutions that are accurate, impactful, and future-ready. Curiosity led me to ask: what happens to all this data once it’s collected — can it tell us more? That pull led me to Artificial Intelligence and Data Science.",
   body:
     "Today, I combine that technical foundation with data analysis and machine learning. From preprocessing and EDA to visualisation and predictive modelling, I turn raw data into clear insights and narratives that drive decisions.",
   skills: [
@@ -47,9 +54,8 @@ export const experience = [
     desc:
       "I am currently sharpening my expertise in data science through hands-on training, where I apply Python, SQL, and visualisation tools to real-world projects like predictive modelling and exploratory analysis. Alongside the technical work, I am building strong communication and problem-solving skills, while also exploring freelancing opportunities to apply my knowledge in practical, client-focused contexts.",
     tags: ["SQL", "Python", "EDA", "Predictive Modelling"],
-    image: "src/assets/DEPI.png"
+    image: depiImg,
   },
-
   {
     year: "2025",
     period: "Aug 2025 — Sep 2025",
@@ -58,8 +64,8 @@ export const experience = [
     desc:
       "Levelled up my data analysis journey at NTI — diving into Python, SQL, Excel, and visualisation tools while working on real-world projects. Along the way, I’m also sharpening soft skills and exploring freelancing, turning technical learning into practical, client-ready solutions.",
     tags: ["SQL", "Excel", "Power BI", "Power Query", "Tableau"],
-    image: "src/assets/NTI.png"
-  }
+    image: ntiImg,
+  },
 ];
 
 export const projects = [
@@ -67,12 +73,12 @@ export const projects = [
     title: "HR Analytics Project",
     date: "2025",
     desc:
-      "Designed and implemented an HR analytics dashboard to uncover workforce insights and support data‑driven decision making. The project focused on analyzing employee demographics, attrition trends, performance ratings, and departmental distributions. Using tools such as Excel, Power Query, and visualization techniques, I transformed raw HR data into interactive reports that highlight key metrics like turnover rate, average tenure, and promotion patterns. The outcome provides HR managers with actionable insights to improve retention strategies, optimize hiring, and enhance overall organizational performance.",
+      "Designed and implemented an HR analytics dashboard to uncover workforce insights and support data-driven decision making. The project focused on analyzing employee demographics, attrition trends, performance ratings, and departmental distributions. Using tools such as Excel, Power Query, and visualization techniques, I transformed raw HR data into interactive reports that highlight key metrics like turnover rate, average tenure, and promotion patterns. The outcome provides HR managers with actionable insights to improve retention strategies, optimize hiring, and enhance overall organizational performance.",
     tags: ["Excel", "Power Query", "Dashboard"],
-    image: "src/assets/HR Analytics.png",
+    image: "https://drive.google.com/file/d/1Qbvqw9D0wfrZyNHIhUUL1yuK1Qk7Cr3Q/view?usp=sharing",
     link: "https://docs.google.com/spreadsheets/d/your-sheet-id",
     source: "https://github.com/yourusername/hr-analytics",
-    dataset: "https://docs.google.com/spreadsheets/d/your-sheet-id"
+    dataset: "https://docs.google.com/spreadsheets/d/your-sheet-id",
   },
   {
     title: "Customers Data Analysis — Banque Misr",
@@ -80,9 +86,9 @@ export const projects = [
     desc:
       "Performed an in-depth analysis of customer data for Banque Misr using Excel, Pivot Tables, and Power Pivot. Designed an interactive dashboard to visualise customer activity, credit card ownership, and product distribution across countries. The project revealed key insights into customer behaviour and supported data-driven business decisions.",
     tags: ["Excel", "Power Query", "Pivot Tables", "Dashboard"],
-    image: "src/assets/Banque Misr.png",
+    image: misrImg,
     link: "https://docs.google.com/spreadsheets/d/1jlhaHOzgh7zaYVpn8ZlV865sAJfyVaII/edit?usp=sharing",
-    dataset: "https://www.kaggle.com/datasets/coffee-shop"
+    dataset: "https://www.kaggle.com/datasets/coffee-shop",
   },
   {
     title: "Housing Prices Data Analysis",
@@ -90,10 +96,10 @@ export const projects = [
     desc:
       "Analysed the House Pricing Dataset to uncover the factors influencing property values, including location, age, build quality, and construction type. Through thorough data cleaning, exploratory analysis, and visualisation in Python, I identified key patterns showing how neighbourhood, condition, and overall quality impact price. The findings offer valuable insights for buyers, sellers, and investors looking to make informed, data-driven decisions.",
     tags: ["Python", "Pandas", "Numpy", "Matplotlib", "Seaborn"],
-    image: "src/assets/Housing Prices.png",
+    image: houseImg,
     link: "https://www.kaggle.com/code/yourusername/housing-prices-analysis",
     source: "https://github.com/yourusername/housing-prices-analysis",
-    dataset: "https://www.kaggle.com/datasets/coffee-shop"
+    dataset: "https://www.kaggle.com/datasets/coffee-shop",
   },
 ];
 
@@ -108,7 +114,7 @@ export const services = [
       },
       { 
         level: "🚀 Professional (2 Weeks)", 
-        details: "In‑depth analysis with trend discovery and actionable insights." 
+        details: "In-depth analysis with trend discovery and actionable insights." 
       },
       { 
         level: "👑 Advanced (1 Month)", 
@@ -130,13 +136,13 @@ export const services = [
       },
       { 
         level: "👑 Advanced (1 Month)", 
-        details: "Real‑time dashboards with professional reporting and design polish." 
+        details: "Real-time dashboards with professional reporting and design polish." 
       }
     ]
   },
   {
     title: "Complete Data Solutions",
-    desc: "End‑to‑end solutions combining analysis, visualization, and automation.",
+    desc: "End-to-end solutions combining analysis, visualization, and automation.",
     tiers: [
       { 
         level: "⭐ Starter (2 Weeks)", 
@@ -148,7 +154,7 @@ export const services = [
       },
       { 
         level: "👑 Advanced (2–3 Months)", 
-        details: "End‑to‑end data project with app or web integration." 
+        details: "End-to-end data project with app or web integration." 
       }
     ]
   },
@@ -172,10 +178,9 @@ export const services = [
   }
 ];
 
-
 export const contact = {
-  email: "mailto:your.email@example.com",
-  linkedin: "https://www.linkedin.com/in/your-handle",
-  github: "https://github.com/your-handle",
-  kaggle: "https://www.kaggle.com/your-handle",
+  email: "muntaha7med211@hotmail.com",
+  linkedin: "www.linkedin.com/in/muntaha7hmed",
+  github: "https://github.com/muntaha7med",
+  kaggle: "https://www.kaggle.com/muntaha7med",
 };

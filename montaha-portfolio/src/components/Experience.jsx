@@ -18,7 +18,7 @@ export default function Experience() {
             My journey in AI and Data Science has been shaped by a mix of structured programmes, internships, and hands-on projects. Through these experiences, I have applied concepts such as data preprocessing, exploratory analysis, machine learning, and visualisation to practical challenges. Each opportunity allowed me to sharpen my technical foundation, enhance problem-solving skills, and collaborate effectively — building a professional mindset that I continue to grow with every project.
           </p>
           <a
-            href="https://drive.google.com/uc?export=download&id=1VOUbQJKR343CxeQg87A773tlt8QNM9xj"
+            href="https://drive.google.com/file/d/1UraZMZI3XKg-FDsJQqZmz_kxysoifA4r/view?usp=sharing"
             download
             className="btn"
           >
